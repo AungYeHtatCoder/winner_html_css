@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 500px;
+  height: 100vh;
+  border: 3px solid #dfdfdf;
+  border-radius: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  color: white;
+  padding: 4px;
+}
+
+.relative {
+  position: relative;
+}
+
+.static {
+  position: static;
+}
+
+.sticky {
+  position: sticky;
+  top: 10px;
+  width: 100%;
+}
+
+.bg-rose {
+  background-color: #de1767;
+}
+
+.bg-blue {
+  background-color: #4875ba;
+}
